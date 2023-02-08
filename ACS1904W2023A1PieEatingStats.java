@@ -149,7 +149,10 @@ public class ACS1904W2023A1PieEatingStats{
             //System.out.println(scoreType + " " + newScore);
 
             if(scoreType == 'T'){
+                //printList(times[indexToEdit], 10);
+                //System.out.println();
                 addScore(times[indexToEdit], newScore);
+                //printList(times[indexToEdit], 10);
                 //System.out.println("add time: " + newScore);
             }// end add a time
             else{
